@@ -1,0 +1,8 @@
+#folders
+/server/node_modules
+
+#dev
+.idea
+
+#files
+db_online_etc_store

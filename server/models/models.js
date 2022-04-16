@@ -65,7 +65,7 @@ BasketDevice.belongsTo(Basket)
 
 //У девайса может быть много описаний
 //Описание пренадлежит девайсу
-Device.hasMany(DeviceInfo)
+Device.hasMany(DeviceInfo, {as: 'info'})
 DeviceInfo.belongsTo(Device)
 
 Type.hasMany(Device)
